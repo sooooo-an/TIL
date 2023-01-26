@@ -78,7 +78,8 @@ Angular에서 애플리케이션을 위한 injector는 부트스트랩되는 동
 - DI system: dependency consumer, dependency provider
   ![Angular DI System](../images/2023_01_27_DI_Angular_DI_01.png)
   Angular는 추상화된 Injector를 사용하여 dependency consumer와 dependency provider 사이의 인터렉션을 가능하게 한다.
-  <br/>
+
+- Injector가 하는 일
   ![What injectors do](../images/2023_01_27_DI_Angular_DI_02.png)
   dependency가 consumer에 의해 요청되면, Injector는 registry에서 사용 가능한 인스턴스가 이미 있는지 확인하고, 만약 없다면 새로운 인스턴스가 생성된 후 registry에 저장된다.
 

@@ -22,5 +22,5 @@ Injector는 Angular dependency injection 시스템 내부의 객체로, Angular�
 
 ### Provider
 
-[Provider](https://angular.io/api/core/Provider) 인터페이스로 구현되어 있는 객체로, DI token과 연결된, 주입 가능한 dependency를 얻는 방법을 뜻한다. injector는 provider를 사용하여 필요로 하는 클래스에 대한 dependency의 새 인스턴스를 생성할 수 있다.
+[Provider](https://angular.io/api/core/Provider) 인터페이스로 구현되어 있는 객체로, DI token과 연결된, 주입 가능한 dependency를 얻는 방법을 뜻한다. injector는 provider를 사용하여 필요로 하는 클래스에 대한 dependency의 새 인스턴스를 생성할 수 있다. <br/>
 Angular는 Angular가 정의한 서비스를 위해 모든 injector에 자체 provider를 등록한다. 응용프로그램에 필요한 서비스에 대해 자체 provdier를 등록할 수 있다
